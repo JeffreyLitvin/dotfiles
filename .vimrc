@@ -1,5 +1,5 @@
 syntax on
-colors desert
+color wombat  "https://raw.githubusercontent.com/gryf/wombat256grf/master/colors/wombat256grf.vim
 set nocindent
 set tabstop=4
 set smartindent
@@ -7,7 +7,6 @@ set ai
 set ruler
 set hlsearch
 set number
-set background=light
 set et
 set sts=4
 set ts=4

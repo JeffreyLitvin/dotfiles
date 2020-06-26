@@ -1,19 +1,18 @@
 syntax on
 color wombat  "https://raw.githubusercontent.com/gryf/wombat256grf/master/colors/wombat256grf.vim
-set nocindent
-set tabstop=4
-set smartindent
-set ai
-set ruler
-set hlsearch
-set number
-set et
-set sts=4
-set ts=4
-set expandtab
-set undolevels=500
-set showmatch
-set incsearch
-set ignorecase
-set smartcase
 filetype on
+set autoindent
+set colorcolumn=80
+set expandtab smarttab
+set hlsearch
+set ignorecase
+set incsearch
+set laststatus=2
+set number
+set ruler
+set showmatch
+set smartcase
+set smartindent
+set softtabstop=4
+set tabstop=4
+set undolevels=500

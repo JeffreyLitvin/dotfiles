@@ -23,3 +23,10 @@ Installs to: Something crazy like C:\Users\$USER\AppData\Local\Packages\Microsof
 Documentation: https://docs.microsoft.com/en-us/windows/terminal/customize-settings/global-settings
                https://docs.microsoft.com/en-us/windows/terminal/customize-settings/profile-settings
 
+# bash
+File: .bashrc
+
+Installs to: ~/.bashrc
+
+Documentation: https://www.gnu.org/software/bash/manual/
+

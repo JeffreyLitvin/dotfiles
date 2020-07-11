@@ -1,0 +1,3 @@
+[wsl2]
+memory=2GB                  # Make sure you have this amount available to use!
+swapFile=C:\\Users\\litvi\\wsl2-swap.vhdx 

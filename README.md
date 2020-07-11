@@ -30,3 +30,10 @@ Installs to: ~/.bashrc
 
 Documentation: https://www.gnu.org/software/bash/manual/
 
+# WSL2Config
+File: .wsl2config
+
+Installs to: C:\Users\$USER\.wsl2config
+
+Documentation: https://docs.microsoft.com/en-us/windows/wsl/wsl-config#configure-global-options-with-wslconfig
+

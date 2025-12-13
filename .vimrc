@@ -9,6 +9,7 @@ set ignorecase
 set incsearch
 set laststatus=2
 "set mouse=a
+"set spell
 set number
 set ruler
 set showmatch

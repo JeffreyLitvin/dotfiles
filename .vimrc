@@ -1,14 +1,14 @@
 syntax on
-color wombat  "https://raw.githubusercontent.com/gryf/wombat256grf/master/colors/wombat256grf.vim
+colorscheme koehler
 filetype on
 set autoindent
-set colorcolumn=80
+"set colorcolumn=80
 set expandtab smarttab
 set hlsearch
 set ignorecase
 set incsearch
 set laststatus=2
-set mouse=a
+"set mouse=a
 set number
 set ruler
 set showmatch

@@ -24,3 +24,6 @@ if &diff
     colorscheme peachpuff
     set background=dark
 endif
+nnoremap [q :cprevious<CR>
+nnoremap ]q :cnext<CR>
+map <C-\>g :GtagsCursor<CR>

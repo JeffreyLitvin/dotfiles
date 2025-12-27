@@ -20,6 +20,7 @@ set softtabstop=4
 set tabstop=4
 set undolevels=500
 set hidden
+set vb
 if &diff
     colorscheme peachpuff
     set background=dark

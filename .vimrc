@@ -28,3 +28,7 @@ endif
 nnoremap [q :cprevious<CR>
 nnoremap ]q :cnext<CR>
 map <C-\>g :GtagsCursor<CR>
+if executable('rg')
+  set grepprg=rg\ --vimgrep\ --smart-case\ --hidden
+  set grepformat=%f:%l:%c:%m
+endif

@@ -21,14 +21,28 @@ set tabstop=4
 set undolevels=500
 set hidden
 set vb
+
 if &diff
     colorscheme peachpuff
     set background=dark
 endif
+
 nnoremap [q :cprevious<CR>
 nnoremap ]q :cnext<CR>
 map <C-\>g :GtagsCursor<CR>
+
 if executable('rg')
   set grepprg=rg\ --vimgrep\ --smart-case\ --hidden
   set grepformat=%f:%l:%c:%m
 endif
+
+call plug#begin()
+
+" List your plugins here
+"
+" " fzf native plugin
+Plug 'junegunn/fzf'
+" fzf.vim
+Plug 'junegunn/fzf.vim'
+
+call plug#end()
